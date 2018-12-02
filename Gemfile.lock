@@ -80,6 +80,10 @@ GEM
       railties (>= 3.2, < 6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    guard-compat (1.2.1)
+    guard-minitest (2.4.6)
+      guard-compat (~> 1.2)
+      minitest (>= 3.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (1.0.1)
@@ -234,6 +238,7 @@ DEPENDENCIES
   devise
   devise-bootstrap-views
   font-awesome-rails
+  guard-minitest
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
